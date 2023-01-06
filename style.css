@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 150px;
+    font-family: sans-serif;
+    background-size: cover;
+    background-image: url(./annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
+}
+#email {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: 3px solid darkblue;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+#password {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 14px 30px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 14px 30px;
+    width: 200px;
+    outline: none;
+    color: darkblue;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#email:focus{
+    width: 260px;
+    border-color: blue;
+}
+#password:focus{
+    width: 260px;
+    border-color: darkblue;
+}
+button:hover{
+    background: dodgerblue;
+
+}
+
+#emailLabel {
+    margin-left: 559px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#passwordLabel {
+    margin-left: 540px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
